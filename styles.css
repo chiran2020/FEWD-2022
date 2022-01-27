@@ -1,3 +1,13 @@
 body {
-  background-color: chartreuse ;
+  background-color: chartreuse;
+}
+
+.soccer-Stadium,
+img {
+  border: 2px rgb(240, 217, 217) solid;
+  border-radius: 5px;
+}
+
+h4 {
+  color: rgb(209, 140, 49);
 }
