@@ -11,3 +11,53 @@ img {
 h4 {
   color: rgb(209, 140, 49);
 }
+
+table {
+  margin-bottom: 20px;
+}
+
+/* flex Boxes */
+/* .column {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  background-color: rgb(192, 192, 178);
+} */
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  column-gap: 30em;
+  /* row-gap: 5em; */
+
+  justify-content: space-evenly;
+  background-color: rgb(73, 77, 70);
+}
+
+.column:hover {
+  background-color: rgb(214, 219, 209);
+}
+
+.box {
+  color: red;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background-color: antiquewhite;
+  text-align: center;
+  border: #333 2px solid;
+  border-radius: 5px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.box:hover {
+  border: rgb(73, 77, 70) 2px solid;
+  color: rgb(73, 77, 70);
+}
