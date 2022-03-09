@@ -42,19 +42,19 @@ table {
 }
 
 .column:hover {
-  background-color: rgb(214, 219, 209);
+  background-color: rgb(53, 54, 51);
 }
 
 .box {
   display: flex;
-  color: red;
+  color: #333;
   font-size: 20px;
   width: 60px;
   height: 60px;
   margin: 10px;
   background-color: antiquewhite;
   /* text-align: center; */
-  border: #333 2px solid;
+  border: #fff 2px solid;
   border-radius: 5px;
   /* justify-items: center; */
   justify-content: center;
@@ -105,6 +105,7 @@ table {
     height: 110px;
     background-color: rgb(233, 143, 25);
     color: darkmagenta;
+    border: #333 1px solid;
     border-radius: 50%;
   }
 }
